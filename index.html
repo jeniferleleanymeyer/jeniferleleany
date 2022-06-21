@@ -52,7 +52,7 @@
                     <div class="col-lg-8">
                         <h2 class="text-white mb-4">Hello!</h2>
                         <p class="text-white-50">My name is Jenifer.
-				<br>I study Computational Linguistics at the UZH.
+				<br>I study Computational Linguistics at the University of Zurich.
 				<br>Scroll down further to find some of my programming projects and to contact me.</p>
                     </div>
                 </div>
@@ -104,29 +104,14 @@
                         <h2 class="text-white mb-5">Send me a message!</h2>
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN" action=”mailto:jenifer@jenifer.ch”>
                             <!-- Email address input-->
-                            <div class="mb-3">
-					  <input class="form-control" id="name" type="text" placeholder="Enter Name" />
-				    </div>
-				    <div class="mb-3">
-					  <input class="form-control" id="emailAddress" type="email" placeholder="Enter Email Address" />
-					  <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-      				  <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
-   				    </div>
-                            <div class="mb-3">
-					  <input class="form-control" id="message" type="text" placeholder="Enter Message" style="height: 10rem;"></textarea>
-					  <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
-				    </div>
-				     	  <div class="d-none" id="submitSuccessMessage">
-      				  <div class="text-center mb-3">Form submission successful!</div>
-    				    </div>
-				    	  <div class="d-none" id="submitErrorMessage">
-      				  <div class="text-center text-danger mb-3">Error sending message!</div>
-    				    </div>
-                            <div class="d-grid">
-					  <button class="btn btn-primary btn-lg" type="submit" value="submit">Submit</button
-				    </div>
-				    
-                        </form>
+                            <form action=”mailto:contact@yourdomain.com”
+					  method=”POST”
+					  enctype=”multipart/form-data”
+					  name=”EmailForm”>
+					  Name:<br>
+					  <input type=”text” size=”19″ name=”ContactName”><br><br>
+					  Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
+					  </textarea><br><br> <input type=”submit” value=”Submit”> </form> 
                     </div>
                 </div>
             </div>
