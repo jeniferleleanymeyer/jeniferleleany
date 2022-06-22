@@ -25,16 +25,20 @@
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-                        <li class="nav-item extendednavigation_navigation-item" aria-haspopup="true"><a class="nav-link" href="#project01">Projects +</a>
-				<ul>
-                            <li><a href="#project01">Joke Generator</a></li>
-                            <li><a href="#project01">Joke Generator</a></li>
-                            <li><a href="#project01">Joke Generator</a></li>
-				</ul></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
+                    <div class="navbar">
+  				<a href="#about">About Me</a>
+  				<div class="dropdown">
+    					<button class="dropbtn">Projects
+      					<i class="fa fa-caret-down"></i>
+    					</button>
+    					<div class="dropdown-content">
+      					<a href="#project01">Joke Generator</a>
+      					<a href="#project02">Jupyter Notebook</a>
+      					<a href="#project03">Photography</a>
+    					</div>
+  				</div>
+				<a href="#contact">Contact</a>
+			  </div>
                 </div>
             </div>
         </nav>
