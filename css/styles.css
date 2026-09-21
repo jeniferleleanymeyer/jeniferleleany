@@ -239,11 +239,10 @@ sup {
 }
 
 a {
-  color: #64a19d;
-  text-decoration: underline;
+  color: #da70d6;
 }
 a:hover {
-  color: #50817e;
+  color: #8d4585;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3034,13 +3033,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #64a19d;
-  border-color: #64a19d;
+  background-color: #8d4585;
+  border-color: #8d4585;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #558985;
-  border-color: #50817e;
+  background-color: #da70d6;
+  border-color: #da70d6;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -11609,6 +11608,14 @@ body {
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
+  margin-bottom: 5rem;
+}
+
+.publications-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.publications-section p {
   margin-bottom: 5rem;
 }
 
